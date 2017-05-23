@@ -7,3 +7,4 @@ This is what a readme file looks like.
   <li>Here's the link to markdown sytanx https://daringfireball.net/projects/markdown/syntax</li>
   <li>It is also important to use the readme file by updating it with path decisions and important "about" information.</li>
 </ol>
+THis is an example of a commit. 
