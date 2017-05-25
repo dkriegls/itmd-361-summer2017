@@ -255,7 +255,6 @@ nav {
   padding-bottom: 0;
 }
 
-
 .preview {
   background-color: #A7C3C9;
   color: #142736;
@@ -271,6 +270,15 @@ nav {
 }
 #calendar .is-next {
   margin-bottom: 1.2631578947em;
+}
+
+#links {
+	background-color: #A7C3C9;
+  color: #142736;
+}
+
+#links a {
+	color: #BA370B;
 }
 
 /* Table */
