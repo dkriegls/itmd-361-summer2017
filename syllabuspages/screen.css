@@ -142,7 +142,10 @@ nav {
 }
 #links,
 #instructor {
-  margin-top: 2.5263157895em;
+  margin-top: 2.4em;
+}
+#links {
+	padding-top: 2.4em;
 }
 
 /* ========== Modules ========== */
