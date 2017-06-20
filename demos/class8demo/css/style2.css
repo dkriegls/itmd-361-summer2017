@@ -51,7 +51,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 }
 
 #navbar-container {
-	text-align: center;
+	float: left;
+	width: 100%;
+	position: relative;
 }
 
 #main-navbar {
@@ -62,12 +64,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	display: inline-block;
-	vertical-align: top;
+	position: relative;
+	left: 50%;
+	float: left;
 }
 
 #main-navbar ul li {
 	float: left;
+	position: relative;
+	right: 50%;
+	display: block;
 }
 
 #main-navbar ul li a {
