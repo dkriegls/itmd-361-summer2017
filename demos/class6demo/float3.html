@@ -7,6 +7,8 @@
 		.mycontainer {
 			background-color: green;
 			overflow: hidden;
+      position: relative;
+      z-index: 10;
 		}
 		.mycontainer div {
 			background-color: blue;
@@ -30,12 +32,20 @@
 		.overflow {
 			overflow:scroll ;
 		}
+    p {
+    position: absolute;
+    right: 0px;
+    z-index: -100;
+    }
 	</style>
 </head>
 <body>
 	<div class="mycontainer">
 		<div class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!</div>
 		<div id="sidebar"></div>
+    <div id="sidebar">
+      <p>some text</p>
+    </div>
 		<h2>Heading 2</h2>
 		<div></div>
 		<div></div>
